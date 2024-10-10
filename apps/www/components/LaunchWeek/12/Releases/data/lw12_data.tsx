@@ -107,7 +107,7 @@ const days: (isDark?: boolean) => WeekDayProps[] = (isDark = true) => [
     d: 2,
     dd: 'Tue',
     shipped: true,
-    isToday: true,
+    isToday: false,
     hasCountdown: false,
     blog: '/blog/supabase-realtime-broadcast-and-presence-authorization',
     date: '13 August',
@@ -149,61 +149,125 @@ const days: (isDark?: boolean) => WeekDayProps[] = (isDark = true) => [
     id: 'day-3',
     d: 3,
     dd: 'Wed',
-    shipped: false,
+    shipped: true,
     isToday: false,
-    hasCountdown: true,
-    blog: '',
+    hasCountdown: false,
+    blog: '/blog/third-party-auth-mfa-phone-send-hooks',
     date: '14 August',
     published_at: '2024-08-14T08:00:00.000-07:00',
-    title: '',
-    description: '',
+    title: 'Supabase Auth: Bring-your-own Auth0, Cognito, or Firebase',
+    description: (
+      <>
+        <span className="text-foreground">Supabase Auth</span>:<br className="hidden sm:block" />{' '}
+        Bring-your-own Auth0,
+        <br className="hidden sm:block" /> Cognito, or Firebase
+      </>
+    ),
     links: [
+      {
+        type: 'video',
+        href: 'BPD7kxb5N84',
+      },
       {
         type: 'xSpace',
         href: 'https://supabase.link/lw12-xspace-3',
       },
     ],
-    steps: [],
+    steps: [
+      {
+        title: 'Supabase Auth: Bring-your-own Auth0, Cognito, or Firebase',
+        blog: '/blog/third-party-auth-mfa-phone-send-hooks',
+        bg_layers: [
+          {
+            img: '/images/launchweek/12/d3/auth-dark.svg',
+            mobileImg: '/images/launchweek/12/d3/auth-dark-mobile.svg',
+            imgLight: '/images/launchweek/12/d3/auth-light.svg',
+            mobileImgLight: '/images/launchweek/12/d3/auth-light-mobile.svg',
+          },
+        ],
+        steps: [],
+      },
+    ],
   },
   {
     id: 'day-4',
     d: 4,
     dd: 'Thu',
-    shipped: false,
+    shipped: true,
     isToday: false,
     hasCountdown: false,
-    blog: '',
+    blog: '/blog/log-drains',
     date: '15 August',
     published_at: '2024-08-15T08:00:00.000-07:00',
-    title: '',
-    description: '',
+    title: 'Introducing Log Drains',
+    description: 'Introducing Log Drains',
     links: [
+      {
+        type: 'video',
+        href: 'A4GFmvgxS-E',
+      },
       {
         type: 'xSpace',
         href: 'https://supabase.link/lw12-xspace-4',
       },
     ],
-    steps: [],
+    steps: [
+      {
+        title: 'Introducing Log Drains',
+        blog: '/blog/log-drains',
+        bg_layers: [
+          {
+            img: '/images/launchweek/12/d4/logdrains-dark.svg',
+            mobileImg: '/images/launchweek/12/d4/logdrains-dark-mobile.svg',
+            imgLight: '/images/launchweek/12/d4/logdrains-light.svg',
+            mobileImgLight: '/images/launchweek/12/d4/logdrains-light-mobile.svg',
+          },
+        ],
+        steps: [],
+      },
+    ],
   },
   {
     id: 'day-5',
     d: 5,
     dd: 'Fri',
-    shipped: false,
+    shipped: true,
     isToday: false,
     hasCountdown: false,
-    blog: '',
+    blog: '/blog/postgres-foreign-data-wrappers-with-wasm',
     date: '16 August',
     published_at: '2024-08-16T08:00:00.000-07:00',
-    title: '',
-    description: '',
+    title: 'Postgres Foreign Data Wrappers with Wasm',
+    description: (
+      <>
+        Postgres<span className="text-foreground sm:block"> Foreign Data Wrappers</span> with Wasm
+      </>
+    ),
     links: [
+      {
+        type: 'video',
+        href: 'wCwEWR4k0no',
+      },
       {
         type: 'xSpace',
         href: 'https://supabase.link/lw12-xspace-5',
       },
     ],
-    steps: [],
+    steps: [
+      {
+        title: 'Postgres Foreign Data Wrappers with Wasm',
+        blog: '/blog/postgres-foreign-data-wrappers-with-wasm',
+        bg_layers: [
+          {
+            img: '/images/launchweek/12/d5/FDW-with-WASM-dark.svg',
+            mobileImg: '/images/launchweek/12/d5/FDW-with-WASM-dark-mobile.svg',
+            imgLight: '/images/launchweek/12/d5/FDW-with-WASM-light.svg',
+            mobileImgLight: '/images/launchweek/12/d5/FDW-with-WASM-light-mobile.svg',
+          },
+        ],
+        steps: [],
+      },
+    ],
   },
 ]
 
